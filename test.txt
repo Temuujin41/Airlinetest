@@ -1,0 +1,8 @@
+Flight	                1	How many unique routes are there? (Non-duplicate, Only 1 From, To) 
+Flight	                2	From/To any airport excluding Wednesday how many routes are there? Which airlines have the shortest duration flights
+Flight	                3	From 15:00 to 21:00 which airports,airlines are available to Depart from /excluding 18:00 to 19:00 flights/
+Flight/Airport	        4	Create a field that user can enter its own From/To and from that, calculate/suggest the shortest duration flight 
+                            and suggest the user to go by car to take a possible flight from different airport /Same country/
+Data/Column	            5	Seperate the texts in "B" columns to its corresponding column's rows (See Sheet: Column) /Using the same Logic if 
+                            any new unlisted column occurs create a column for it/
+Flight/Index Airlines	6	Using flow chart below to calculate user defined results.
