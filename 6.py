@@ -19,5 +19,5 @@ if not flights_filtered.empty:
     print(f"\nShortest Flight:\n{shortest_flight[['Departure airport 3code', 'Arrival airport 3code', 'Airline 2code', 'duration']]}")
     print(f"Total Duration of Flights: {total_duration}")
     print("Available Airlines:", available_airlines)
-else:
+else: 
     print("No flights found for the specified criteria.")

@@ -29,6 +29,6 @@ user_airport_country = airports_df.loc[airports_df['IATA 3 Letter Airport Code']
 if user_airport_country.size > 0:
     same_country_airports = airports_df[airports_df['Country code'] == user_airport_country[0]]
     print("\nSuggested alternative airports in the same country:")
-    print(same_country_airports['IATA 3 Letter Airport Code'].tolist())
+    print(same_country_airports['IATA 3 Letter Airport Code'].tolist()) 
 else:
     print("Country for the departure airport not found.")

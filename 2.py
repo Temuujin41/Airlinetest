@@ -23,5 +23,5 @@ min_duration = df_filtered['DurationInMinutes'].min()
 shortest_flights = df_filtered[df_filtered['DurationInMinutes'] == min_duration]
 shortest_airlines = shortest_flights['Airline 2code'].unique()
 
-print("\nAirlines with the shortest duration flights:")
+print("\nAirlines with the shortest duration flights:") 
 print(shortest_airlines)

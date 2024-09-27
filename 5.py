@@ -18,4 +18,4 @@ data_df = pd.concat([data_df.drop(data_df.columns[1], axis=1), split_columns], a
 
 data_df.to_excel('updated_data.xlsx', index=False)
 
-print("Data has been processed and saved to 'updated_data.xlsx'.")
+print("Data has been processed and saved to 'updated_data.xlsx'.") 

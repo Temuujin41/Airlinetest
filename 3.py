@@ -21,5 +21,5 @@ available_airlines = filtered_df['Airline 2code'].unique()
 print("Airports 15:00 and 21:00, excluding 18:00 to 19:00:")
 print(available_airports)
 
-print("\n Airlines 15:00 and 21:00, excluding 18:00 to 19:00:")
+print("\n Airlines 15:00 and 21:00, excluding 18:00 to 19:00:") 
 print(available_airlines)
